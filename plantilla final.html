@@ -36,10 +36,10 @@ body {font-family: "Lato", sans-serif}
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ACONTECIMIENTOS</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RECORDATORIOS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CRONOGRAMA</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ACTIVIDADES</a>
 </div>
 
 <!-- Page content -->
@@ -108,8 +108,8 @@ body {font-family: "Lato", sans-serif}
                         <p><b>New York</b></p>
                         <p class="w3-opacity">Fri 27 Nov 2016</p>
                         <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                        <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
                     </div>
+
                 </div>
                 <div class="w3-third w3-margin-bottom">
                     <img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
@@ -117,51 +117,28 @@ body {font-family: "Lato", sans-serif}
                         <p><b>Paris</b></p>
                         <p class="w3-opacity">Sat 28 Nov 2016</p>
                         <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                        <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
                     </div>
                 </div>
-                <div class="w3-third w3-margin-bottom">
+                    <div class="w3-third w3-margin-bottom">
                     <img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
                     <div class="w3-container w3-white">
                         <p><b>San Francisco</b></p>
                         <p class="w3-opacity">Sun 29 Nov 2016</p>
                         <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                        <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
                     </div>
                 </div>
-            </div>
         </div>
-    </div>
-
-    <!-- Ticket Modal -->
-    <div id="ticketModal" class="w3-modal">
-        <div class="w3-modal-content w3-animate-top w3-card-4">
-            <header class="w3-container w3-teal w3-center w3-padding-32">
-        <span onclick="document.getElementById('ticketModal').style.display='none'"
-              class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
-                <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
-            </header>
-            <div class="w3-container">
-                <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
-                <input class="w3-input w3-border" type="text" placeholder="How many?">
-                <p><label><i class="fa fa-user"></i> Send To</label></p>
-                <input class="w3-input w3-border" type="text" placeholder="Enter email">
-                <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
-                <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
-                <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
-            </div>
-        </div>
-    </div>
+     </div>
 
     <!-- The Contact Section -->
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-        <h2 class="w3-wide w3-center">CONTACT</h2>
-        <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+        <h2 class="w3-wide w3-center">CONTÁCTANOS</h2>
+        <p class="w3-opacity w3-center"><i>¿Alguna sugerencia? Déjala por aquí!</i></p>
         <div class="w3-row w3-padding-32">
             <div class="w3-col m6 w3-large w3-margin-bottom">
-                <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
-                <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
-                <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+                <i class="fa fa-map-marker" style="width:30px"></i> Caracas, Venezuela<br>
+                <i class="fa fa-phone" style="width:30px"></i> Teléfono: +58 424 1405917<br>
+                <i class="fa fa-envelope" style="width:30px"> </i> Email: villarroeln76@gmail.com<br>
             </div>
             <div class="w3-col m6">
                 <form action="/action_page.php" target="_blank">
